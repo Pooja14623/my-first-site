@@ -4,13 +4,14 @@ const EMAIL = 'poojasarsambi6@gmail.com'
 
 export function CallingCard() {
   return (
-    <article className="w-full max-w-xl overflow-hidden rounded-2xl border bg-card shadow-[0_24px_60px_-30px_oklch(0.42_0.13_330/0.45)]">
+    <article className="w-full max-w-xl overflow-hidden rounded-2xl border bg-card shadow-[0_24px_60px_-30px_oklch(0.56_0.2_355/0.45)]">
       <div className="h-2 bg-primary" aria-hidden="true" />
       <div className="flex flex-col gap-10 p-8 sm:p-12">
         <header className="flex flex-col gap-4">
           <h1 className="text-balance text-3xl font-semibold leading-tight tracking-tight text-foreground sm:text-4xl">
-            Pooja Bhimshankar Sarsambi
+            {"Hi, I'm Pooja"}
           </h1>
+          <p className="text-lg text-muted-foreground">Pooja Bhimshankar Sarsambi</p>
           <p className="font-mono text-sm font-medium uppercase tracking-[0.25em] text-primary">
             Software Engineer
           </p>
