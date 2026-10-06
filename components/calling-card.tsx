@@ -11,6 +11,7 @@ export function CallingCard() {
           <h1 className="text-balance text-3xl font-semibold leading-tight tracking-tight text-foreground sm:text-4xl">
             {"Hi, I'm Pooja"}
           </h1>
+          <p className="text-base font-medium text-primary">Now on GitHub</p>
           <p className="text-lg text-muted-foreground">Pooja Bhimshankar Sarsambi</p>
           <p className="font-mono text-sm font-medium uppercase tracking-[0.25em] text-primary">
             Software Engineer
